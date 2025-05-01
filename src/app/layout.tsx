@@ -10,6 +10,7 @@ const geistSans = Geist({
 
 const analytics = Analytics.toString();
 console.log(analytics);
+console.log("Hello World");
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
