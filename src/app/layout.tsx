@@ -8,6 +8,9 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
+const analytics = Analytics.toString();
+console.log(analytics);
+
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
